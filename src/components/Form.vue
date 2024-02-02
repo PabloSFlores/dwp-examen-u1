@@ -11,6 +11,7 @@
               :state="validate.marca"
               @input="validateField('marca')"
               type="text"
+              placeholder="Nissan"
               trim
               required
             >
@@ -28,6 +29,7 @@
               :state="validate.modelo"
               @input="validateField('modelo')"
               type="text"
+              placeholder="March"
               trim
               required
             >
