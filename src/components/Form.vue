@@ -144,6 +144,12 @@ export default Vue.extend({
         this.validate.matricula = true;
       }
     },
+    validateMarca(){
+        const formato = /^[A-Z]{1}[aA-zZ]{1,}/;
+    },
+    validateModelo(){
+        const formato = /^[A-Z]{1}[aA-zZ]{1,}/;
+    },
     validateFecha() {
         console.log(this.carData.fechaFabricacion);
     },
