@@ -13,7 +13,7 @@ export default Vue.extend({
     return {
       items: [
         {
-          text: "Inicio",
+          text: "Comienzo",
           href: "/",
         },
         {

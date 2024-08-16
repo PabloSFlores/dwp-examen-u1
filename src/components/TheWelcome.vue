@@ -1,19 +1,19 @@
 <template>
   <div>
     <b-breadcrumb :items="items"></b-breadcrumb>
-    <b-button to="/form">Registro</b-button>
+    <b-button to="/form">Si jala el action</b-button>
   </div>
 </template>
 
 <script>
 import Vue from "vue";
 export default Vue.extend({
-  name: "inicio",
+  name: "Comienzo",
   data() {
     return {
       items: [
         {
-          text: "Inicio",
+          text: "Comienzo",
           active: true,
         },
       ]
